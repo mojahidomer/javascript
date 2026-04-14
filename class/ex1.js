@@ -9,7 +9,7 @@ class Shap {
         this.sideLength = sideLength
 
     }
-  calcPerimeter(){
+  calArea(){
 
     console.log(`The  Paramter of this shap ${this.name} is ${this.sideLength*this.sides}:`)
   }
@@ -28,4 +28,4 @@ let React = new Shap("React",4,4)
 React.calcPerimeter()
 
 let squre = new Squre(8)
-squre.calcPerimeter()
+squre.calArea()
