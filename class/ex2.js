@@ -29,6 +29,8 @@ let mojahid5 = new Account()
 mojahid5.addBalance(100)
 mojahid5.addBalance(100)
 mojahid5.addBalance(100)
+
+
 console.log(Account.count,mojahid2.getBalance(),mojahid5.getBalance());
 // consoe
 
